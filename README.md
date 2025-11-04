@@ -7,7 +7,7 @@ It uses Grok-4-Fast non-reasoning agents within a Sugarscape-style environment.
 It’s designed for playful experimentation and qualitative observation of AI agent behavior such as emergent alliances or betrayal behaviors under scarcity of energy and resources, cooperation, and survival pressures.
 
 If you find any interesting data, please share it!  
-面白いデータが取れたらぜひシェアしてね → [@yukin_co on X](https://x.com/yukin_co)
+ → [@yukin_co on X](https://x.com/yukin_co)
 
 
 ## Quick Start
