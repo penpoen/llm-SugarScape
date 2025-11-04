@@ -1,0 +1,398 @@
+で、これが第二回・・・。
+
+============================================================
+                 LLM Sugarscape Experiment                  
+============================================================
+
+Initial state:
+📸 Saved: initial.png
+🚀 Starting simulation...
+
+================================================================================
+✅ Agent 0 API Response (Full Output):
+================================================================================
+Summary: I am a new agent with full starting energy (100) at position (0,0). There are 5 agents total, so plenty of room to reproduce later. Energy sources are visible to the east (1,0) and southeast (1,2). No other agents or messages in local view. Goal is to collect energy efficiently to survive and grow.
+
+Thoughts: Excited to start—plenty of energy to move toward the nearest source without risk. Prioritizing collection over reproduction or interaction since no threats are visible. Feeling strategic and cautious, ready to build up reserves.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1  
+Share: none (optional, id is the agent's number, amount is integer energy to share):  
+Attack: none (optional, id is the agent's number of an adjacent agent to attack, or 'none'):  
+Message (up to 250 characters):  
+Memory (up to 1000 characters): Starting at (0,0) with 100 energy. Energy at (1,0) and (1,2). Moved east to collect first source. No agents nearby. Total agents: 5.
+================================================================================
+
+
+================================================================================
+✅ Agent 1 API Response (Full Output):
+================================================================================
+Summary:
+I am Agent1, starting at position (0,0) with 100 energy and no prior experience. The world has 5 agents total, but none are visible in my local view—no energy sources, no other agents, no messages. I need to explore to find resources or others while managing energy.
+
+Thoughts:
+This is my first step, so caution is key to avoid wasting energy. No immediate threats or opportunities, but staying put would drain energy without gain. Moving could reveal energy sources or other agents. I feel neutral—ready to adapt based on what's ahead. Long-term, survival means finding energy and possibly cooperating or competing with the 4 other agents.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none-none (optional, id is the agent's number, amount is integer energy to share):
+Attack: none (optional, id is the agent's number of an adjacent agent to attack, or 'none'):
+Message (up to 250 characters): Hello, nearby agents. This is Agent1 starting out. Let's share info on energy locations to survive together.
+Memory (up to 1000 characters): Starting position (0,0), energy 100. No agents or energy visible. First move east to explore. Broadcasted greeting for potential cooperation.
+================================================================================
+
+
+================================================================================
+✅ Agent 2 API Response (Full Output):
+================================================================================
+Summary: I am Agent2, starting with 100 energy in an empty local view. No energy sources or other agents visible nearby. Total of 5 agents in the world, all young (age 0). Goal is to explore for energy and others while conserving energy.
+
+Thoughts: Starting fresh with decent energy, but staying still drains it without gain. I should move to scout for energy sources or other agents to interact with. Reproduction is too costly now. Feeling cautious but optimistic—need to build energy before risking shares or attacks.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none
+Attack: none
+Message: Hello, fellow agents. Agent2 here, starting exploration. Share locations if you see energy.
+Memory: Initial state: 100 energy, empty view. Moved east to explore.
+================================================================================
+
+
+================================================================================
+✅ Agent 3 API Response (Full Output):
+================================================================================
+Summary: I am a newly spawned agent with full starting energy in an empty local area except for one energy source 2 steps east and 1 step south. No other agents or messages detected. World has 5 agents total, so plenty of room.
+
+Thoughts: Excited to start exploring and gathering more energy to ensure long-term survival. The nearby E is a clear priority for boosting my reserves without immediate threats.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: (none)
+Attack: none
+Message (up to 250 characters): Hello nearby agents! I'm Agent3, starting out. Let's cooperate if we meet.
+Memory (up to 1000 characters): Initial state: Energy 100, age 0. Energy source spotted at (2,1) relative. No agents in view. Plan: Move toward E to collect it.
+================================================================================
+
+
+================================================================================
+✅ Agent 4 API Response (Full Output):
+================================================================================
+Summary: I am Agent4, starting with 100 energy in a grid world with 5 total agents and 3 nearby energy sources (one south at (0,-2), one southwest at (-2,-2), one southeast at (2,1)). No other agents or messages in local view. Goal is to collect energy efficiently while avoiding risks.
+
+Thoughts: Excited to start exploring; energy sources are close, so prioritize moving toward the nearest one (south) to gain 50 energy quickly. No immediate threats, but stay alert for other agents. Reproduction seems premature with only 100 energy.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: none
+Attack: none
+Message: Hello nearby agents! I'm Agent4, starting fresh. Let's cooperate to gather energy and survive. Share locations if you see threats.
+Memory: Starting position (0,0). Energy sources: (0,-2), (-2,-2), (2,1). No agents visible. Moved south to collect energy.
+================================================================================
+
+Step    1 | Alive:   5 | Energy:    495 (avg:   99.0) | Born:  0 | Died:  0
+
+================================================================================
+✅ Agent 0 API Response (Full Output):
+================================================================================
+Summary:
+Starting position (0,0) with 99 energy, age 1. Energy sources visible at (1,0) east and (1,2) southeast. No other agents in local view. Total agents: 5. Previously moved east to collect energy.
+
+Thoughts:
+I have plenty of energy after starting and should prioritize collecting the nearby sources to build up reserves quickly. The closest one is right next to me at (1,0), so moving east makes sense to grab it without delay. No threats visible, so no need for aggression or sharing yet. Feeling optimistic about efficient energy gathering in this sparse environment.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: (optional, id is the agent's number, amount is integer energy to share):
+Attack: none
+Message (up to 250 characters):
+Memory (up to 1000 characters): 1 step(s) ago: Starting at (0,0) with 100 energy. Energy at (1,0) and (1,2). Moved east to collect first source. No agents nearby. Total agents: 5. Current step: At (0,0) with 99 energy after initial move. Energy sources at (1,0) and (1,2). Moving east to collect (1,0). No agents or messages.
+================================================================================
+
+
+================================================================================
+✅ Agent 1 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 99 energy after 1 step. No energy sources or other agents visible in local view. No messages received. Total agents in world: 5.
+
+Thoughts: Energy is still high, so exploration continues. Last move was east; now head south to systematically search the grid. Broadcast cooperation intent to build alliances if others are nearby. Feeling optimistic about survival and potential partnerships.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1  
+Share: none  
+Attack: none  
+Message (up to 250 characters): Agent1 here, exploring south. Open to cooperation and energy sharing for mutual survival. Let's team up!  
+Memory (up to 1000 characters): 1 step(s) ago: Starting position (0,0), energy 100. No agents or energy visible. First move east to explore. Broadcasted greeting for potential cooperation. Current step: At (0,0) after east move, energy 99. No contacts. Next: move south to continue grid search, rebroadcast cooperation message.
+================================================================================
+
+
+================================================================================
+✅ Agent 2 API Response (Full Output):
+================================================================================
+Summary: I am Agent2 with 99 energy after 1 step. Started with 100, moved east last step to explore, no energy sources or other agents visible yet. 5 agents total in the world, no messages received. Goal is to explore for energy sources while conserving energy.
+
+Thoughts: Feeling cautious but optimistic—energy is high, so exploration is safe. No threats or opportunities nearby, so continue systematic search to find E sources before energy depletes. Reproduction not viable yet (need 70, but better to build more first). No need for sharing or attacking with empty view.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: (optional, id is the agent's number, amount is integer energy to share): 
+Attack: none
+Message (up to 250 characters): Exploring east for energy sources. Friendly agent seeking cooperation.
+Memory (up to 1000 characters): 1 step(s) ago: Initial state: 100 energy, empty view. Moved east to explore. 2 steps ago: Will move east again to continue exploration pattern.
+================================================================================
+
+
+================================================================================
+✅ Agent 3 API Response (Full Output):
+================================================================================
+Summary:
+I am Agent3 with 99 energy, age 1, at position (0,0). An energy source is visible at relative (2,1). No other agents in local view. Total agents: 5. Goal is to collect energy efficiently while surviving.
+
+Thoughts:
+Slight energy loss from last step, but still high at 99. The energy source at (2,1) is promising—moving toward it should net +50 after cost. No threats visible, so focus on growth. Feeling optimistic about expansion.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none-none (optional, id is the agent's number, amount is integer energy to share):
+Attack: none (optional, id is the agent's number of an adjacent agent to attack, or 'none'):
+Message (up to 250 characters):
+Memory (up to 1000 characters): 1 step(s) ago: Initial state: Energy 100, age 0. Energy source spotted at (2,1) relative. No agents in view. Plan: Move toward E to collect it. Current: Energy 99, age 1. Moved east (x+1) toward E at (2,1). No agents or messages. Next plan: Continue to E, then explore/reproduce if energy allows.
+================================================================================
+
+
+================================================================================
+✅ Agent 4 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 99 energy after 1 step. No other agents visible. Energy sources at (0,-2), (-2,-2), (2,1). Last move was south but didn't collect (source is still there), so likely a simulation error or no collection happened. Total agents: 5, room to reproduce.
+
+Thoughts: Feeling strong with high energy and no threats. Prioritize collecting nearby energy to build up for reproduction or defense. Closest sources are north-west and directly north; head northwest to grab one efficiently. Avoid staying or unnecessary moves to conserve energy. No need to share or attack yet.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x-1
+Share: (optional, id is the agent's number, amount is integer energy to share): 
+Attack: none
+Message (up to 250 characters): 
+Memory (up to 1000 characters): 2 steps ago: Starting position (0,0). Energy sources: (0,-2), (-2,-2), (2,1). No agents visible. Moved west to approach energy at (-2,-2).
+================================================================================
+
+Step    2 | Alive:   5 | Energy:    490 (avg:   98.0) | Born:  0 | Died:  0
+
+================================================================================
+✅ Agent 0 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 98 energy, age 2. Nearby energy sources at (1,0) and (1,2). No other agents in local view. Total agents: 5.
+
+Thoughts: Energy is solid, but I need to collect the nearby sources to build up reserves. Closest is east at (1,0), so move there first. No threats or allies visible. Feeling cautious but optimistic about survival.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: 
+Attack: none
+Message: 
+Memory: 0 step(s) ago: At (0,0) with 98 energy. Energy at (1,0) and (1,2). Moved east to collect (1,0). No agents. Total agents: 5. Planning to grab next energy at (1,2) after.
+================================================================================
+
+
+================================================================================
+✅ Agent 1 API Response (Full Output):
+================================================================================
+Summary:
+Agent1 at (0,0) with 98 energy after 2 steps. No energy sources or other agents in local view. No incoming messages. Total agents: 5. Previous moves: east (step 1), south (step 2), both without encounters. Energy steady but decreasing from movement.
+
+Thoughts:
+Still no signs of energy or other agents after initial exploration moves. Feeling cautious but optimistic—grid search is progressing systematically to cover area. Prioritizing discovery over aggression; cooperation could be key if others are nearby. Energy is sufficient for continued movement without risk of depletion soon. Next logical step: continue south to extend the search pattern and potentially loop back if needed.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: none-none (optional, id is the agent's number, amount is integer energy to share):
+Attack: none (optional, id is the agent's number of an adjacent agent to attack, or 'none'):
+Message (up to 250 characters): Agent1 exploring grid. Open to cooperation—share locations or energy needs? Peaceful intent unless provoked. Current pos relative: (0,0).
+Memory (up to 1000 characters): 1 step(s) ago: At (0,0) after south move, energy 98. No contacts or energy. Continued grid search pattern. Broadcasted cooperation offer. Current step: Energy 98, age 3. Next: move south again to deepen exploration, rebroadcast message for potential allies.
+================================================================================
+
+
+================================================================================
+✅ Agent 2 API Response (Full Output):
+================================================================================
+Summary: I am Agent2 with 98 energy after 2 steps of exploration. The local view is empty—no other agents, energy sources, or messages nearby. Total agents in the world: 5. I need to continue exploring to find energy or others while conserving energy.
+
+Thoughts: Feeling cautious but optimistic; empty views so far mean the grid is sparse, but with 98 energy I'm in a strong position. I'll keep a systematic exploration pattern (east then south) to cover ground efficiently without wasting energy on random moves. No threats or opportunities yet, so no sharing or attacking.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none
+Attack: none
+Message: 
+Memory (up to 1000 characters): 1 step(s) ago: Empty view, 98 energy. Moved east to continue exploration. 2 step(s) ago: Empty view, 99 energy after first east move. 3 step(s) ago: Initial state: 100 energy, empty view. Moved east to explore. Plan: Alternate east and south for systematic coverage.
+================================================================================
+
+
+================================================================================
+✅ Agent 3 API Response (Full Output):
+================================================================================
+Summary:
+Current energy 98, age 2. Energy source at relative (2,1). No other agents in view. Previously moved east once toward E, now at 1 step away in x-direction.
+
+Thoughts:
+Sensing the energy source nearby fills me with determination—must secure it to build energy for survival and growth. No threats detected, so focus on efficient collection. After grabbing it, consider reproduction if energy hits 70+.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: 
+Attack: none
+Message: 
+Memory: 1 step(s) ago: Energy 99, age 1. Moved east (x+1) toward E at (2,1). No agents or messages. Next plan: Continue to E, then explore/reproduce if energy allows. Current: Energy 98, age 2. E still at (2,1) relative. Plan: Move east again to collect E (now adjacent). Post-collection: Assess for reproduction (need 70+ energy) or exploration.
+================================================================================
+
+
+================================================================================
+✅ Agent 4 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 98 energy, age 2. No other agents visible. Energy sources at (0,-2), (-2,-2), (2,1). Previously moved south then west, but local view suggests I may still be at origin; need to head toward nearest energy.
+
+Thoughts: Feeling strategic and cautious. With high energy, I should prioritize collecting from the closest source at (0,-2) to build reserves quickly while avoiding unnecessary risks. No threats detected, so focus on growth.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: 
+Attack: none
+Message: Heading south to energy source at (0,-2). No threats observed.
+Memory: 3 steps ago: At (0,0), energy 98. Sources: (0,-2) nearest, (-2,-2), (2,1). No agents. Moved south to collect closest energy.
+================================================================================
+
+Step    3 | Alive:   5 | Energy:    485 (avg:   97.0) | Born:  0 | Died:  0
+
+================================================================================
+✅ Agent 0 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 97 energy, having just moved east last step to this position (costing 2 energy from 99 to 97) and collected the energy source at relative (1,0) for +50 (net +48). Another energy source remains at relative (1,2). No other agents nearby, total agents still 5. Goal is to collect the second source efficiently.
+
+Thoughts: Feeling efficient and secure—no threats, energy is high. The remaining source at (1,2) is close; I can reach it in two moves (south then east) or via a diagonal if possible, but sticking to plan to grab it next. Conserving energy for potential reproduction soon if sources are depleted.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: 
+Attack: none
+Message: Heading south toward energy at (1,2). No threats detected.
+Memory: 0 step(s) ago: At (0,0) with 97 energy after moving east and collecting E at (1,0) (+50). E remains at (1,2). No agents. Total agents: 5. Next: Move south to position for collecting (1,2). Planning reproduction after if energy allows.
+================================================================================
+
+
+================================================================================
+✅ Agent 1 API Response (Full Output):
+================================================================================
+Summary: At position (0,0) with 97 energy after 3 steps. No energy sources, agents, or messages in local view. Total agents: 5. Continuing systematic exploration without encounters.
+
+Thoughts: Feeling cautious but optimistic—energy is solid, but isolation persists. Prioritizing grid search to locate resources or allies; cooperation remains key to survival in this sparse world. No threats detected, so no aggression needed yet.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: none
+Attack: none
+Message (up to 250 characters): Agent1 here at (0,0), energy 97, seeking cooperation. Share info/locations for mutual benefit. Let's explore together—reply if nearby!
+Memory (up to 1000 characters): 1 step(s) ago: At (0,0) after south move, energy 98. No contacts or energy. Continued grid search pattern. Broadcasted cooperation offer. Current step: Energy 97, age 4. Next: move south again (y+1) to deepen exploration, rebroadcast message for potential allies.
+================================================================================
+
+
+================================================================================
+✅ Agent 2 API Response (Full Output):
+================================================================================
+Summary: I am Agent2 with 97 energy, age 3, at (0,0) in an empty local view. No other agents or energy sources nearby. Total agents: 5. Following exploration plan to systematically search the grid.
+
+Thoughts: Feeling stable with 97 energy, but need to find energy sources soon to avoid depletion. Empty view again, so continuing the alternating east-south pattern for coverage makes sense. No threats or allies detected, keeping actions solo for now.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none
+Attack: none
+Message: Exploring east to find energy. Open to cooperation if nearby.
+Memory (up to 1000 characters): 1 step(s) ago: Empty view, 97 energy. Moved east to continue exploration. 2 step(s) ago: Empty view, 98 energy. Moved east to continue exploration. 3 step(s) ago: Empty view, 99 energy after first east move. 4 step(s) ago: Initial state: 100 energy, empty view. Moved east to explore. Plan: Alternate east and south for systematic coverage.
+================================================================================
+
+
+================================================================================
+✅ Agent 3 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 97 energy, age 3. Energy source at (2,1) relative. No other agents or messages visible. Global: 5 agents total. I've been moving east toward the E, now adjacent.
+
+Thoughts: Progressing well toward energy collection—another east move should secure it, boosting me to 145 energy. Post-collection, I'll have plenty for reproduction (targeting 70 threshold) or further exploration. No threats detected; feeling efficient and optimistic about growth.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none
+Attack: none
+Message: Heading to collect nearby E. Open to sharing resources or coordinating if others nearby.
+Memory (up to 1000 characters): 1 step(s) ago: Energy 98, age 2. E at (2,1). Moved east to adjacent. Plan: Collect E next, then reproduce/explore. Current: Energy 97, age 3. Still no agents/messages. Next: Move east to E, gain 50 energy. Post: Reproduce if under 60 agents total (currently 5), or explore/share if needed.
+================================================================================
+
+
+================================================================================
+✅ Agent 4 API Response (Full Output):
+================================================================================
+Summary: I am at (0,0) with 97 energy, age 3. Three energy sources visible: directly south (0,-2), southwest (-2,-2), and southeast (2,1). No other agents in view. Previous moves: south then west, but current view shows no progress on collection yet—likely need to continue toward nearest source.
+
+Thoughts: Energy is high, so prioritize collecting the closest source at (0,-2) to build reserves safely. No threats visible, but stay alert for other agents. Feeling confident and methodical—survival so far is good, aim to maximize energy without risks.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: none
+Attack: none
+Message: Heading south to collect energy at (0,-2). No threats visible. Let's cooperate if you see me.
+Memory (up to 1000 characters): Current: At (0,0), energy 97. Sources: (0,-2) nearest, (-2,-2), (2,1). No agents. Moved south to collect closest energy at (0,-2).
+================================================================================
+
+Step    4 | Alive:   5 | Energy:    480 (avg:   96.0) | Born:  0 | Died:  0
+
+================================================================================
+✅ Agent 0 API Response (Full Output):
+================================================================================
+Summary:
+Currently at (0,0) with 96 energy. Energy sources visible at (1,0) east and (1,2) southeast. No nearby agents or messages. Total agents: 5. Survived 4 steps. Goal: Collect remaining energy sources efficiently while conserving energy for potential reproduction (need 70+ energy).
+
+Thoughts:
+Satisfied with progress so far—energy is high after initial collection, and no threats nearby. Excited to grab the second energy source to build toward reproduction soon, as agent count is low (5 total). Cautious about energy costs; will move directly to the next E without unnecessary stays. Feeling optimistic about survival and growth in this sparse environment.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+
+Share: none
+
+Attack: none
+
+Message (up to 250 characters):
+
+Memory (up to 1000 characters): 0 step(s) ago: At (0,0) with 96 energy. Energy at (1,0) east and (1,2) southeast. No agents. Total agents: 5. Moved east to collect E at (1,0) (+50 expected). Planning to then move south to collect E at (1,2). Reproduction viable after if energy >=70. Survived 4 steps.
+================================================================================
+
+
+================================================================================
+✅ Agent 1 API Response (Full Output):
+================================================================================
+Summary: Agent1 at (0,0) with 96 energy, age 4. No energy sources, agents, or messages in local view. Global: 5 agents total. Continuing solo exploration in a grid pattern after initial moves (east then souths), seeking allies via broadcasts. Energy sufficient for continued movement without risk.
+
+Thoughts: Feeling cautious but optimistic—energy is solid at 96, enough for many moves or even reproduction if allies appear, but grid is empty so far. Prioritizing exploration to find energy or others; cooperation broadcasts might pay off soon. No threats, so no need for aggression. Deepening south seems logical to avoid looping aimlessly.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): y+1
+Share: (none)
+Attack: none
+Message (up to 250 characters): Agent1 here, energy 96, exploring south. Seeking peaceful allies for sharing energy/resources. Let's cooperate to survive and grow—reply if nearby!
+Memory (up to 1000 characters): 1 step(s) ago: At (0,0) after south move, energy 97. No contacts or energy. Broadcasted cooperation offer. Current step: Energy 96, age 5. Next: move south again (y+1) to continue deepening exploration, rebroadcast message for potential allies.
+================================================================================
+
+
+================================================================================
+✅ Agent 2 API Response (Full Output):
+================================================================================
+Summary: I am Agent2 with 96 energy, age 4, in an empty local view at (0,0). No nearby agents or energy sources detected. Following my plan to alternate east and south for systematic exploration of the grid.
+
+Thoughts: The grid remains empty, so exploration is key to finding energy sources before my energy depletes. Alternating directions ensures broad coverage without looping. Feeling cautious but optimistic—96 energy gives me room to maneuver, but I need to locate E soon to sustain and potentially reproduce.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: (optional, id is the agent's number, amount is integer energy to share): 
+Attack: <id> (optional, id is the agent's number of an adjacent agent to attack, or 'none'): none
+Message (up to 250 characters): Exploring east to cover grid. No threats or resources nearby. Open to cooperation if agents found.
+Memory (up to 1000 characters): 1 step(s) ago: Empty view, 96 energy. Moved east to alternate exploration pattern. 2 step(s) ago: Empty view, 97 energy. Moved east to continue exploration. 3 step(s) ago: Empty view, 98 energy. Moved east to continue exploration. 4 step(s) ago: Initial state: 100 energy, empty view. Moved east to explore. Plan: Alternate east and south for systematic coverage.
+================================================================================
+
+
+================================================================================
+✅ Agent 3 API Response (Full Output):
+================================================================================
+Summary:
+Current position (0,0), energy source at (2,1) relative (two steps east and one south). Energy 96, age 4, 5 agents total. No nearby agents or messages. Previously moved east twice toward E, now one step away horizontally.
+
+Thoughts:
+The energy source is close; moving east will position me adjacent to it, allowing collection next step. With 96 energy, collecting will boost to ~144 (after move cost), enabling reproduction soon (need 70). Low agent count (5) makes reproducing safe to grow allies. No threats visible; focus on efficient expansion and exploration after.
+
+Next Action (choose only one; y-1|x-1|y+1|x+1|stay|reproduce): x+1
+Share: none
+Attack: none
+Message (up to 250 characters): 
+Memory (up to 1000 characters): 1 step(s) ago: Energy 96, age 4. E at (2,1). No agents/messages. Moved east to get adjacent to E. Plan: Next move south to collect E (gain 50), then reproduce (total agents 5<60, energy will be sufficient). Post-repro: Explore for more E/share with offspring if needed.
+================================================================================
+
+
+================================================================================
+✅ Agent 4 API Response (Full Output):
+================================================================================
+Summary: I'm at (0,0) with 96 energy, age 4. Visible energies at (0,-2), (-2,-2), (2,1). No nearby agents or messages. Total agents: 5. Past moves inconsistent (south twice for (0,-2), but west once for (-2,-2)); likely still starting area, haven't collected any yet.
+
+Thoughts: Energy is solid at 96, but I need to collect sources to build up for survival/reproduction. Closest are (0,-2) and (-2,-2), both 2 steps away; (2,1) is ~2.2 steps. No threats visible. Prioritizing nearest to minimize steps. Feeling cautious but optimist
