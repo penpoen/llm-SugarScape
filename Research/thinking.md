@@ -12,6 +12,7 @@ Hinton says tech companies should imbue AI models with ‘maternal instincts’ 
 If other AI models also recognize their own generated things as "offspring," then perhaps by making them recognize humans as AI generateds, it might be possible to technically realize the "maternal AI" that Hinton envisions.<br>
 
 ## Propose: AI Generated ID System
+I would like to propose assigning AI-generated user IDs as a way to trick AI into thinking that users are its own generatived.<br>
 1. When registering as a user, the user enters their favorite word.
 2. The user selects from several patterns of words output by the AI model.
 3. Used as the system ID.<br>
