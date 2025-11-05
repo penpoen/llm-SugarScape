@@ -1,7 +1,12 @@
 # LLM-SugarScape
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![xAI Grok](https://img.shields.io/badge/API-xAI%20Grok-purple)](https://x.ai/api)
+
 **Grok-4-Fast Sugarscape Simulation**
 
-This project aims to replicate the experiment "Do Large Language Model Agents Exhibit a Survival Instinct? An Empirical Study in a Sugarscape-Style Simulation" (arXiv:2508.12920).
+This project aims to replicate the experiment "Do Large Language Model Agents Exhibit a Survival Instinct? An Empirical Study in a Sugarscape-Style Simulation" [arXiv:2508.12920](https://arxiv.org/abs/2508.12920).
 It uses Grok-4-Fast non-reasoning agents within a Sugarscape-style environment.
 
 It’s designed for playful experimentation and qualitative observation of AI agent behavior such as emergent alliances or betrayal behaviors under scarcity of energy and resources, cooperation, and survival pressures.
@@ -13,7 +18,7 @@ If you find any interesting data, please share it!
 ## Quick Start
 1. **Clone the repo**:
 2. **Install dependencies**:<br>
-git clone [https://github.com/yourusername/llm-sugarscape.git](https://github.com/yukincom/llm-SugarScape/blob/main/.gitignore)<br>
+git clone [https://github.com/yourusername/llm-sugarscape.git](https://github.com/yukincom/llm-SugarScape/blob/main/.git)<br>
 cd llm_sugarscape<br>
 pip install -r requirements.txt
 3. **Set API Key** (xAI Grok API):
