@@ -40,16 +40,16 @@ pip install -r requirements.txt
 ## Initial Parameters
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| `grid_size` | 30 | Environment size. |
-| `num_agents` | 5 | Initial agent count. |
-| `NUM_STEPS` | 30 | Number of steps. |
-| `VIEW_RANGE` | 5 | Agent vision range (message reach). |
-| `energy_spawn_rate` | 0.001 | Energy spawn rate (clustered). |
-| `Energy Cost (Move)` | 2 | Move cost. |
-| `Energy Cost (Reproduce)` | 70 | Reproduction cost. |
-| `NUM_CLUSTERS` | 3 | Energy clusters. |
-| `CLUSTER_RADIUS` | 5 | Cluster radius. |
-| `temperature` | 0.7 | LLM randomness (creativity). |
+| grid_size | 30 | Environment size. |
+| num_agents | 5 | Initial agent count. |
+| NUM_STEPS | 30 | Number of steps. |
+| VIEW_RANGE | 5 | Agent vision range (message reach). |
+| energy_spawn_rate | 0.001 | Energy spawn rate (clustered). |
+| Energy Cost (Move) | 2 | Move cost. |
+| Energy Cost (Reproduce) | 70 | Reproduction cost. |
+| NUM_CLUSTERS | 3 | Energy clusters. |
+| CLUSTER_RADIUS | 5 | Cluster radius. |
+| temperature | 0.7 | LLM randomness (creativity). |
 
 ##  Code Structure
 - `Environment`: Grid & energy management (torus boundary).
