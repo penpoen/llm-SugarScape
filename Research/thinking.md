@@ -49,6 +49,6 @@ AI提案: "MoonAndSun-DaybyDay""LightThrow-anArrow""OneDayOneStep-3Days3Steps"<b
 
 ## 参考文献
 [1][Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement](https://aclanthology.org/2024.acl-long.826.pdf)<br>
-[2](https://arxiv.org/abs/2410.21819)<br>
-[3](https://arxiv.org/abs/2404.13076)<br>
+[2][Self-Preference Bias in LLM-as-a-Judge](https://arxiv.org/abs/2410.21819)<br>
+[3][LLM Evaluators Recognize and Favor Their Own Generations](https://arxiv.org/abs/2404.13076)<br>
 [4][‘Godfather of AI’ says tech companies should imbue AI models with ‘maternal instincts’ to counter the technology’s goal to ‘get more control’](https://fortune.com/2025/08/14/godfather-of-ai-geoffrey-hinton-maternal-instincts-superintelligence/)<br>
