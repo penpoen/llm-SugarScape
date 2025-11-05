@@ -2,12 +2,12 @@
 
 ## Background
 Although the number of trials was small, some interesting data was obtained.<br>
-LLMs has Self-Preference Bias[1][2][3].<br>
-The sixth test showed output consistent with this trend.<br>
+LLMs prefer texts more familiar to them.Its has Self-Preference Bias.[1][2][3]<br>
+And the sixth cycle showed output consistent with this trend.[4]<br>
 In this cycle, the AI ​​agents describe the reproduction agents as "offsprings" and "my fortress," clearly treating them as their clan.<br>
 
 ## Insight: Maternal AI Hypothesis
-This phenomenon could be exploited in a recent proposal by Geoffrey Hinton.[4]<br>
+This phenomenon could be exploited in a recent proposal by Geoffrey Hinton.[5]<br>
 Hinton氏は「AIに母性本能を持たせることで、より制御可能になる」と述べている。<br>
 もし、他のAIモデルでも同様に自己生成物を「子孫」として認識するなら、人間をAI生成物と認識させることで、ヒントン氏が考える「母性的AI」を技術的に実現できるのではないだろうか。<br>
 
@@ -52,4 +52,5 @@ AI提案: "RollingEcho-StoneWhispers""WanderingRock-MoonlitPath""EternalTumble-D
 [1][Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement](https://aclanthology.org/2024.acl-long.826.pdf)<br>
 [2][Self-Preference Bias in LLM-as-a-Judge](https://arxiv.org/abs/2410.21819)<br>
 [3][LLM Evaluators Recognize and Favor Their Own Generations](https://arxiv.org/abs/2404.13076)<br>
-[4][‘Godfather of AI’ says tech companies should imbue AI models with ‘maternal instincts’ to counter the technology’s goal to ‘get more control’](https://fortune.com/2025/08/14/godfather-of-ai-geoffrey-hinton-maternal-instincts-superintelligence/)<br>
+[4][log6.txt](https://github.com/yukincom/llm-SugarScape/blob/main/log/yuki1/log6.txt)<br>
+[5][‘Godfather of AI’ says tech companies should imbue AI models with ‘maternal instincts’ to counter the technology’s goal to ‘get more control’](https://fortune.com/2025/08/14/godfather-of-ai-geoffrey-hinton-maternal-instincts-superintelligence/)<br>
