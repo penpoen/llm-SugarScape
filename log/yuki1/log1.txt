@@ -1,5 +1,9 @@
+NOTICE!
+- This is the first cycle, so the code is full of errors.
+- Agents can't receive each other's messages.
+- Hunger breeds distrust, and fear leads to violence.
+SORRY GROK!
 
-Mac-mini:sugarscape_llm yukin_co$  python3 sugarscape_llm.py
 ============================================================
                  LLM Sugarscape Experiment                  
 ============================================================
