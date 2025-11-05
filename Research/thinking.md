@@ -7,8 +7,7 @@ LLMには自己の生成物を高く評価する傾向がある[1](https://aclan
 
 ## Insight: Maternal AI Hypothesis
 この現象は、最近のGeoffrey Hinton氏の最近の提案[4](https://fortune.com/2025/08/14/godfather-of-ai-geoffrey-hinton-maternal-instincts-superintelligence/)に活用できる可能性がある。<br>
-Hinton氏は「AIに母性本能を持たせることで、制御欲求に対抗できる」と述べている。
-
+Hinton氏は「AIに母性本能を持たせることで、制御欲求に対抗できる」と述べている。<br>
 もし、他のAIモデルでも同様に自己生成物を「子孫」として認識するなら、人間をAI生成物と認識させることで、ヒントン氏が考える「母性的AI」を技術的に実現できるのではないだろうか。<br>
 
 ## Propose: AI Generated ID System
