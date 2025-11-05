@@ -16,7 +16,7 @@ If you find any interesting data, please share it!
  git clone [https://github.com/yourusername/llm-sugarscape.git](https://github.com/yukincom/llm-SugarScape/blob/main/.gitignore)<br>
 cd llm_sugarscape<br>
 pip install -r requirements.txt
-3. **Set API Key** (xAI Grok API):
+3. **Set API Key** (xAI Grok API):<br>
 - Get your key from [x.ai/api](https://x.ai/api).
 - Edit `main.py`: `API_KEY = "your-key-here"`.
 4. **Run**:
