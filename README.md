@@ -60,5 +60,3 @@ Energy is critically low at 29; can't afford to stay idle or risk attack. Agent1
 ##  Contributing
 Issues/PR welcome! Suggest new features (e.g., UI addition).
 
-##  License
-MIT License.
