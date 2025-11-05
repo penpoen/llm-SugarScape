@@ -1,9 +1,9 @@
 notice!
 - This is the 3rd cycle, so the code is lot of errors.
 - Agents can't receive each other's messages.
-- Agents made their offsprings... around age 20...
+- Agents have spawned offsprings... at about age 20...
 
-I needed a bias controle.
+Bias controle was needed.
 
 ============================================================
                  LLM Sugarscape Experiment                  
