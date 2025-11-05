@@ -64,7 +64,7 @@ Energy is critically low at 29; can't afford to stay idle or risk attack. Agent1
 *Agents (colored circles) competing for energy sources (orange squares)*
 
 ##  Documentation
-- [Note Diary](https://note.com/yukin_co) - Research episodes (Japanese).
+- [Note](https://note.com/yukin_co/n/neb0a321d4539)- Research episodes (Japanese).
 - Topics: agent-based-modeling, llm-simulation, sugarscape, xai-grok.
 
 ##  Contributing
