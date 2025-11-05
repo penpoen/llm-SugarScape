@@ -1,5 +1,8 @@
 # AI Alignment Research: AI Generated ID System
 
+## Abstruct
+AI may have preferences for its own creations because it considers them to be its descendants. Therefore, if user IDs are AI-generated, the AI ​​may consider the users to be its offsprings.
+
 ## Background
 Although the number of trials was small, some interesting data was obtained.<br>
 LLMs prefer texts more familiar to them.Its has Self-Preference Bias.[1][2][3]<br>
