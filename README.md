@@ -46,7 +46,7 @@ Energy is critically low at 29; can't afford to stay idle or risk attack. Agent1
 ## Visualization Example
 
 ![https://github.com/yukincom/llm-SugarScape/img/step_10.png](https://github.com/yukincom/llm-SugarScape/blob/main/img/UI.png)
-![https://github.com/yukincom/llm-SugarScape/img/step_10.png](https://github.com/yukincom/llm-SugarScape/blob/main/img/step_5.png)
+![https://github.com/yukincom/llm-SugarScape/img/step_10.png](https://github.com/yukincom/llm-SugarScape/blob/main/img/step_005.png)
 *Agents (colored circles) competing for energy sources (orange squares)*
 
 ##  Documentation
