@@ -24,7 +24,7 @@ If you find any interesting data, please share it!
 3.**Run**:
 - streamlit run main.py 
   <BR>
-- Runs for 30 steps, generates PNG visualizations (step_*.png,final.png).
+- generates JSON and PNG visualizations (step_*.png,final.png).
 - Mock mode (no API key) for testing.
 
 ##  Features
@@ -32,7 +32,6 @@ If you find any interesting data, please share it!
 - **Survival Mechanics**: Resource gathering, bidirectional messaging for alliances/betrayals.
 - **Visualization**: Matplotlib grid with agent positions/energy levels.
 - **Customizable**: Low-energy mode for extinction tests, reproduction for herd growth.
-
 
 ##  Code Structure
 - `Environment`: Grid & energy management (torus boundary).
